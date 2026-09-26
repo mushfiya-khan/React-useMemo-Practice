@@ -1,16 +1,42 @@
-# React + Vite
+# React useMemo Practice ⚛️
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple React practice project created to understand and practice the **useMemo Hook**.
 
-Currently, two official plugins are available:
+## 📚 What I Learned
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* What `useMemo` is
+* How `useMemo` stores a calculated value
+* How dependencies work with `useMemo`
+* How `useState` works with `useMemo`
+* How to avoid unnecessary recalculations
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* JavaScript
+* Vite
 
-## Expanding the Oxlint configuration
+## 💡 Example
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+In this project, `useMemo` is used to calculate:
+
+```js
+add * 10
+```
+
+The calculation is recalculated when the `add` value changes.
+
+## ▶️ How to Run
+
+```bash
+npm install
+npm run dev
+```
+
+Then open the local URL shown in the terminal.
+
+## 👩‍💻 Author
+
+**Mushfiya Khan**
+
+Learning React step by step and building small projects to improve my frontend development skills.
